@@ -1,0 +1,17 @@
+template<class T>
+class Queue
+{
+    public:
+        //Create empty Queue
+        Queue(int QueueCapacity = 10);
+        //If Queue is empty return true
+        bool IsEmpty() const;
+        //return top value
+        T& Front() const;
+        //return front
+        T& Rear() const;
+        //return rear
+        void Push(const T& item);
+        //Delete top of the Queue;
+        void Pop();
+}
