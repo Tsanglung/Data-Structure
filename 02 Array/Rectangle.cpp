@@ -18,6 +18,11 @@ public:
 		else if ((x == s.x) && (y == s.y) && (h == s.h) && (w == s.w))	return true;
 		return false;
 	}
+	bool operator<(const Rectangle& s)
+	{
+		if(x < s.x && y < s.y && h < s.h && w < s.w) return true;
+		else return false;
+	}
 };
 
 ostream& operator<<(ostream& os, Rectangle& Rectabgle)//overloading operator <<
@@ -37,4 +42,7 @@ int main()
 	if (r.GetH() * r.GetW() > t->GetH() * t->GetW())
 		cout << r;
 	else cout << s;
+
+	if(r < s) cout << "Rectaegle r less than Rectangle s" << endl;
+	else cout << "Rectaegle r > Rectangle s" << endl;
 }

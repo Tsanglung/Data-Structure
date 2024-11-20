@@ -7,13 +7,15 @@ class Complex
 private:
 	double a = 0, bi = 0; double den;
 public:
+	//(a), create 0 + 0i
 	Complex() {}//«Øºc¤l
 	Complex(double a,double bi):a(a),bi(bi) {}	//copy
 
+	//(d), Overload << and >>
 	friend istream& operator>>(istream& is, Complex& A);//overloading >>
 	friend ostream& operator<<(ostream& os, Complex& A);//overloading <<
 	
-	Complex operator+(const Complex& s) //add
+	Complex operator+(const Complex& s) //(b), add
 	{	// overload to add two complex numbers
 		Complex Add;
 		Add.a = a + s.a;
@@ -31,7 +33,7 @@ public:
 		return Sub;
 	}
 
-	Complex operator*(const Complex& s) //mul
+	Complex operator*(const Complex& s) //(c), mul
 	{	// overload to multiply two complex numbers
 		//(a+bi)*(s.a+s.bi)
 		Complex Mul;
@@ -70,7 +72,7 @@ ostream& operator<<(ostream& os, Complex& A)
 	else
 	{
 		if (A.bi < 0) 
-			os << '(' << A.a << A.bi << 'i)/' << A.den << endl;
+			os << '(' << A.a << A.bi << "i)/" << A.den << endl;
 		else
 			os << '(' <<  A.a << '+' << A.bi << "i)/" << A.den << endl; 
 	}
@@ -79,15 +81,15 @@ ostream& operator<<(ostream& os, Complex& A)
 
 int main() 
 {
-	Complex C1, C2;
-	cin >> C1;
-	cin >> C2;
-	Complex C3 = C1 + C2;
-	cout << C3;
-	Complex C4 = C1 - C2;
-	cout << C4;
-	Complex C5 = C1 * C2;
+	Complex C1, C2(3,2), C3, C4;
+	cin >> C3;//5 3
+	cin >> C4;//0 0
+	Complex C5 = C1 + C2;//3 2
 	cout << C5;
-	Complex C6 = C1 / C2;
+	Complex C6 = C3 - C5;//2 1
 	cout << C6;
+	Complex C7 = C6 * C5;//4 7
+	cout << C7;
+	Complex C8 = C7 / C6;
+	cout << C8;
 }
