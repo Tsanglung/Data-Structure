@@ -21,7 +21,7 @@ void TreeNode<T>::setNode(TreeNode<T>* L, TreeNode<T>* R)
 	leftChild = L;
 	rightChild = R;
 }
-
+ 
 template <class T>
 class Tree
 {
