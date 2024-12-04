@@ -16,7 +16,7 @@ int Factorial(int n)
 }
 
 int main()
-{
+{ 
     int n;
     cin >> n;
     cout << n << "! = " << RFactorial(n) << endl;

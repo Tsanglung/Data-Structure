@@ -17,7 +17,7 @@ void Fibonacci(int n)
     for(int i = 2; i <= n ; i++){
       fn = fn1 + fn2;
       fn2 = fn1;
-      fn1 = fn;
+      fn1 = fn; 
     }
     cout << "Fibonacci("  << n << ") is " << fn << endl;
   }

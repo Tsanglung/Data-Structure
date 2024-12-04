@@ -25,4 +25,4 @@ int main()
     cout << "Input n , m : ";
     cin >> n >> m;
     cout<< "Binomial Coefficient(" << n << "," << m <<") = " << Binomial(n, m) << endl; 
-}
+} 

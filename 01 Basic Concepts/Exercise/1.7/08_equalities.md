@@ -7,7 +7,7 @@
 Ans: when *c*~1~ = 4, *c*~2~ = 5, and *n*~0~ = 3, that 4*n*^2^ $\leq$ 5*n*^2^ - 6*n* $\leq$ 5*n*^2^, for all *n* $\geq$ 3. so 5*n*^2^ - 6*n* = $\Theta$(*n*^2^)
 
 (b). *n*! = *O*(*n^n^*)
-
+ 
 Ans: when *c* = 1, *n*~0~ = 1,that *n*! = 1*n^n^*, for all *n* $\geq$ 1.so *n*! = *O*(*n^n^*)
 
 (c). 2*n*^2^2^n^ + *n*$\log$*n* = $\Theta$(*n*^2^2^n^)

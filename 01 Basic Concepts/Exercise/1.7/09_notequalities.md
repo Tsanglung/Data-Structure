@@ -9,7 +9,7 @@ Ans: 10*n*^2^ + 9 is not less than or equal to *c* for any constant *c* and all 
 (b). *n*^2^log *n* = $\Theta$(*n*^2^)
 
 Ans: log *n* grow faster than *c*~1~,so *n*^2^log *n* $\neq$ *O*(*n*^2^), so *n*^2^log *n* $\neq$ $\Theta$(*n*^2^)
-
+ 
 (c). $\frac{n^2}{\log n}$ = $\Theta$(*n*^2^)
 
 Ans: if *n* $\rightarrow ¡Û$,$\frac1{\log n}\rightarrow 0$, $\frac{n^2}{\log n}$ grows strictly slower than *n*^2^. so $\frac{n^2}{\log n}$ $\neq$ $\Theta$(*n*^2^)

@@ -29,7 +29,7 @@ void powerset(const vector<char>& set, vector<char>& currentSubset, int index, b
     currentSubset.pop_back();
     // 3. 不選擇當前元素，遞迴處理下一個元素
     powerset(set, currentSubset, index + 1, isFirst, targetSize);
-}
+} 
 
 int main() {
     vector<char> set = {'a', 'b', 'c'}; // 原始集合

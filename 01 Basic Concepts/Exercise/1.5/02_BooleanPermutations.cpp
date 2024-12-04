@@ -17,7 +17,7 @@ void BooleanPermutations(int n, int t){
         cout << binary <<endl;
     }
 }
-
+ 
 int main(){
     int n;
     cout << "Give n Boolean variables : ";

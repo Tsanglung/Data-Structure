@@ -16,7 +16,7 @@ int Binomial(int n,int m, int current_depth)
 }
 
 int main()
-{
+{ 
     int m , n;
     cout << "Input n , m : ";
     cin >> n >> m;
