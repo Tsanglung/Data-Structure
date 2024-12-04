@@ -20,7 +20,6 @@ Book : Fundamentals of Data Structures in C++ 2nd Edition
   5. **Effectiveness**(<font face="標楷體">有效性</font>) : Every instruction must be basic enough to be carried out,in principle,by a person using only pencil and paper. It is enough that each operation be definite as in **Definiteness**;it also must be feasible.
 
 * Recursive Algorithms : Algorithm (or program) <font face="標楷體">存在自我呼叫的敘述。</font>
-
 * **Space Complexity** : The amount of memory it needs to run to completion.
   * def. *S*(*p*) = *c* (a fixed part) + *S~p~* (a variable part)
 * **Time Complexity** : The amount of computer time it needs to run to completion.
@@ -89,3 +88,4 @@ Book : Fundamentals of Data Structures in C++ 2nd Edition
 * List and Table  Sort
 
 </font>
+
