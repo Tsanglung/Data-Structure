@@ -1,9 +1,8 @@
-# 🧠 Data-Structure in ![C++](https://img.shields.io/badge/C%2B%2B-blue?logo=c%2B%2B&logoColor=white)
-
 
 <font face="times new roman">
+  
+# 🧠 Data-Structure in ![](https://img.shields.io/badge/C%2B%2B-blue?logo=c%2B%2B&logoColor=white)
 
-# Data-Structure
 Book : Fundamentals of Data Structures in C++ 2nd Edition
 * Author:
   1. Ellis Horowitz
