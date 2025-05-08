@@ -1,3 +1,6 @@
+# ğŸ§  Data-Structure in ![C++](https://img.shields.io/badge/C%2B%2B-blue?logo=c%2B%2B&logoColor=white)
+
+
 <font face="times new roman">
 
 # Data-Structure
@@ -9,23 +12,23 @@ Book : Fundamentals of Data Structures in C++ 2nd Edition
 
 # Chapter 1 Basic Concepts
 
-* **Data Abstraction** (<font face="¼Ğ·¢Åé">¸ê®Æ©â¶H¤Æ</font>) : Is the separation between the *specification*(<font face="¼Ğ·¢Åé">³W½d</font>) of data object and its *implementation*(<font face="¼Ğ·¢Åé">¹ê²{</font>).
-* **Data Encapsulation** (<font face="¼Ğ·¢Åé">¸ê®Æ«Ê¸Ë</font>) : Is the concealing of the implementation details of a data object from the outside world.
+* **Data Abstraction** (<font face="æ¨™æ¥·é«”">è³‡æ–™æŠ½è±¡åŒ–</font>) : Is the separation between the *specification*(<font face="æ¨™æ¥·é«”">è¦ç¯„</font>) of data object and its *implementation*(<font face="æ¨™æ¥·é«”">å¯¦ç¾</font>).
+* **Data Encapsulation** (<font face="æ¨™æ¥·é«”">è³‡æ–™å°è£</font>) : Is the concealing of the implementation details of a data object from the outside world.
 
-* **Algorithm** : <font face="¼Ğ·¢Åé">¦³­­«ü¥Oºc¦¨ªº¶°¦X¡A¸Ñ¨M¬Y­Ó¯S©w°İÃD¡C</font>
+* **Algorithm** : <font face="æ¨™æ¥·é«”">æœ‰é™æŒ‡ä»¤æ§‹æˆçš„é›†åˆï¼Œè§£æ±ºæŸå€‹ç‰¹å®šå•é¡Œã€‚</font>
   1. **Input** : 0 or more quantities are externally supplied.
   2. **Output** : At least one quantity is produced.
-  3. **Definiteness** (<font face="¼Ğ·¢Åé">©ú½T©Ê</font>) : Each instruction is clear and unambiguous.
-  4. **Finiteness** (<font face="¼Ğ·¢Åé">¦³­­©Ê</font>) : If we trace out the instructions of an algorithm,then for all cases,the algorithm terminates.
-  5. **Effectiveness**(<font face="¼Ğ·¢Åé">¦³®Ä©Ê</font>) : Every instruction must be basic enough to be carried out,in principle,by a person using only pencil and paper. It is enough that each operation be definite as in **Definiteness**;it also must be feasible.
+  3. **Definiteness** (<font face="æ¨™æ¥·é«”">æ˜ç¢ºæ€§</font>) : Each instruction is clear and unambiguous.
+  4. **Finiteness** (<font face="æ¨™æ¥·é«”">æœ‰é™æ€§</font>) : If we trace out the instructions of an algorithm,then for all cases,the algorithm terminates.
+  5. **Effectiveness**(<font face="æ¨™æ¥·é«”">æœ‰æ•ˆæ€§</font>) : Every instruction must be basic enough to be carried out,in principle,by a person using only pencil and paper. It is enough that each operation be definite as in **Definiteness**;it also must be feasible.
 
-* Recursive Algorithms : Algorithm (or program) <font face="¼Ğ·¢Åé">¦s¦b¦Û§Ú©I¥sªº±Ô­z¡C</font>
+* Recursive Algorithms : Algorithm (or program) <font face="æ¨™æ¥·é«”">å­˜åœ¨è‡ªæˆ‘å‘¼å«çš„æ•˜è¿°ã€‚</font>
 * **Space Complexity** : The amount of memory it needs to run to completion.
   * def. *S*(*p*) = *c* (a fixed part) + *S~p~* (a variable part)
 * **Time Complexity** : The amount of computer time it needs to run to completion.
   * def. *T*(*p*) = *c* (compile time) + *T~p~* (execution time)
 
-* Asymptotic Notation (*O*¡B$\Omega$¡B$\Theta$)
+* Asymptotic Notation (*O*ã€$\Omega$ã€$\Theta$)
   * **Definition [*Big "oh"*]**: *f*(*n*) = *O*(*g*(*n*)) if and only if there exist positive constants *c* and *n*~0~ such that *f*(*n*) $\leq$ *cg*(*n*) for all *n*, *n*$\geq$ *n*~0~.
   * **Definition [Omega]**: *f*(*n*) = $\Omega$(*g*(*n*)) iff there exist positive constants *c* and *n*~0~ such that *f*(*n*) $\geq$ *cg*(*n*) for all *n*, *n*$\geq$ *n*~0~.
   * **Definition [Theta]**: *f*(*n*) = $\Theta$(*g*(*n*)) iff there exist positive constants *c*~1~,*c*~2~ and *n*~0~ such that *c*~1~ *g*(*n*)$\leq$ *f*(*n*) $\leq$ *c*~2~ *g*(*n*) for all *n*, *n*$\geq$ *n*~0~.
